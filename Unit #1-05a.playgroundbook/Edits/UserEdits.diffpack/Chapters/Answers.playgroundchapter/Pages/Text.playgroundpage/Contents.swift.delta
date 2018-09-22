@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Diff</key>
+	<array>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>// Created on: Sep-2018
+// Created by: Mr. Coxall
+// Created for: ICS3U
+// This program calculates the cost of a pizza
+
+let LABOUR_COST : Float = 0.75  // constant for labour cost
+let RENT_COST : Float = 1.00  // constant for rent cost
+let MATERIAL_COST : Float = 0.50  // constant for material cost
+let HST : Float = 1.13  // constant for HST
+
+show("Enter the diameter of the pizza you would like. We will then calculate the cost.")
+
+// input
+let diameter = Float(askForNumber("Enter diameter."))
+
+//process
+let cost = (LABOUR_COST + RENT_COST + (MATERIAL_COST * diameter) * HST)
+
+// output
+show(String(format: "The pizza costs: $%.02f", cost))
+
+
+</string>
+			<key>ModifiedRange</key>
+			<string>{145, 648}</string>
+			<key>OriginalContent</key>
+			<string>show("What is your name?")
+
+let name = ask("Name")
+
+show("Hi " + name)
+</string>
+			<key>OriginalRange</key>
+			<string>{145, 71}</string>
+		</dict>
+	</array>
+	<key>File</key>
+	<string>Chapters/Answers.playgroundchapter/Pages/Text.playgroundpage/Contents.swift</string>
+</dict>
+</plist>
